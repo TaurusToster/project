@@ -1,16 +1,16 @@
-let number = 5;
-const leftBorderWidth = 1;
+let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
 
-number = 10;
-console.log(number);
-
-const obj = {
-    a: 50
+const personalMovieDB = {
+    count: numberOfFilms(),
+    movies: [],
+    actors: [],
+    genres: [],
+    privat: false
 };
 
-obj.a = 10;
+let lastFilm = prompt("Один из последних просмотренных фильмов?", "");
+let lastFilmOpinion = prompt("На сколько оцените его?", "");
 
-console.log(obj);
-
-var name = "Ivan";
-
+const movies = {
+    movieName: 
+};
